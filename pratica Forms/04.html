@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmulario HTML</title>
+    <style>
+        
+        #envio{
+            display: block;
+            margin: auto;
+        }
+
+        h1{
+            text-align: center;
+            color: rgb(0, 40, 85);
+            font-style: normal;
+        }
+
+        section{
+            background: white;
+            margin: 1rem auto;
+            padding: 2rem;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+            text-align: center;
+
+
+        .textInput{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #div{
+            margin: 50%;
+        }
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Fórmulario</h1>
+
+   <form action="" method="post"> 
+    <section class="secao">
+        <label for="Nome" class="textInput"><b>Nome completo: </b></label>
+        <input type="text" class="campoInput" id="Nome">
+    </section>
+
+     <section>
+        <label for="email" class="textInput"><b>Seu E-mail: </b></label>
+        <input type="email" class="campoInput" id="email" placeholder="musico@gmail.com">
+    </section>
+
+    <section>
+        <label for="dataDeNascimento" class="textInput"><b>Data de nascimento: </b></label>
+        <input type="date" class="campoInput" id="dataDeNascimento">
+    </section>
+
+    <section>
+        <label for="Cor" class="textInput"><b>Cor da credencial: </b></label>
+        <input type="color" class="campoInput" id="Cor">
+    </section>
+
+    <section>
+        <label for="experiência" class="textInput"><b>Nível de experiência musical: </b></label>
+        <input type="range" min="1" max="10" class="campoInput" id="experiência">
+    </section>
+
+    <section>
+        <label for="tel" class="textInput"><b>Telefone para contato: </b></label>
+        <input type="tel" class="campoInput" id="tel"  pattern="[0-9\-\(\)\s]+" placeholder="Ex: (00) 0000-0000">
+    </section>
+
+    <section>
+        <label for="Link" class="textInput"><b>Link para pórtifolio musical: </b></label>
+        <input type="url" class="campoInput" id="Link" placeholder="https://www.musica.com.br/">
+    </section>
+
+    <section>
+        <label for="DataHora" class="textInput"><b>Data e hora preferível para o workshop: </b></label>
+        <input type="datetime-local" class="campoInput" id="DataHora">
+    </section>
+
+    <section>
+        <label for="mes" class="textInput"><b>Mês preferível para a apresentação: </b></label>
+        <input type="month" class="campoInput" id="mes">
+    </section>
+
+    <section>
+        <label for="horaDisponivel" class="textInput"><b>Horário dísponivel para ensaios: </b></label>
+        <input type="time" class="campoInput" id="horaDisponivel">
+    </section>
+
+    <section>
+        <label for="semanaFestival" class="textInput"><b>Semana do festival que deseja participar: </b></label>
+        <input type="week" class="campoInput" id="semanaFestival">
+    </section>
+
+    <section>
+        <label for="NumerosIngressos" class="textInput"><b>Números de ingressos desejados: </b></label>
+        <input type="number" class="campoInput" id="NumerosIngressos">
+    </section>
+
+    <section>
+        <label for="Busca" class="textInput"><b>Campo de busca para gêneros musicais de  interesse: </b></label>
+        <input type="search" class="campoInput" is="Busca">
+    </section>
+
+    <section>
+        <input type="button" value="Inscrever-se"   class="campoInput">
+    </section>
+
+</form>
+</body>
+</html>

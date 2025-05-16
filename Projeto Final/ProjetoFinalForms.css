@@ -1,0 +1,123 @@
+body{
+    background-color: #F5F3F6;
+}
+
+
+
+#titulo{
+    font-size: 30px;
+    
+}
+
+#introducao{
+    margin-top: 100px;
+}
+
+p{
+    text-align: center;
+}
+
+section {
+    
+    font-size: 20px;
+    background: white;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+}
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+.Rede-Social{
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+    
+    
+}
+.Rede-Social img {
+    margin-left: auto;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    
+}
+
+
+#MenuDeNavegação{
+    background-color: aqua;
+    z-index: 100000;
+    position: fixed;
+    height: auto;
+    width: 100%;
+    top: 0%;
+    margin-right: 10px;
+}
+
+#tituloCotato{
+    height: auto;
+    width: 600px;
+    margin: auto;
+}
+#pcontato{
+    font-size: 20px;
+    text-align: center;
+}
+
+.forms{
+   text-align: center;
+    margin: auto;
+}
+
+#imgZap{
+   
+    width: 50px;
+    height: auto;
+    margin: 0%;
+}
+
+#Pzap{
+    margin-left: 10px;
+    font-style: normal;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:black
+}
+
+.container-grid {
+    display: flex;
+    align-items: center;
+    margin-left: 40%;
+  }
+
+  .skill {
+    margin-bottom: 20px;
+   }
+   .progress-bar {
+    width: 50%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+   }
+   .progress {
+    height: 100%;
+    background-color: #3498db;
+    border-radius: 10px;
+   }
+
+   .NomeBarra{
+    color: #eee;
+   }

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmulario em HTML</title>
+    <style>
+        
+        #envio{
+            display: block;
+            margin: auto;
+        }
+
+        h1{
+            text-align: center;
+            color: rgb(0, 40, 85);
+            font-style: normal;
+        }
+
+        section{
+            background: white;
+            margin: 1rem auto;
+            padding: 2rem;
+            max-width: 800px;
+            box-shadow: 0 0 10px rgba(0, 0, 0,0.1);
+            text-align: center;
+
+
+        .textInput{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        #div{
+            margin: 50%;
+        }
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Fórmulario</h1>
+
+   <form action="" method="post"> 
+    <section class="secao">
+        <label for="Nome" class="textInput"><b>Nome completo do ciclista: </b></label>
+        <input type="text" class="campoInput" id="Nome">
+    </section>
+
+    <section>
+        <label for="Nome" class="textInput"><b>Data de nascimento do ciclista: </b></label>
+        <input type="date" class="campoInput" id="dataDeNascimento">
+    </section>
+
+    <section>
+        <label for="MountainBike" class="textInput"><b>Mountain Bike: </b></label>
+        <input type="radio" class="campoInput" id="MountainBike" name="categoria">
+        <label for="CiclismoDeEstrada" class="textInput"><b>Ciclismo de estrada: </b></label>
+        <input type="radio" class="campoInput" id="CiclismoDeEstrada" name="categoria">
+    </section>
+
+    <section>
+        <label for="Nome" class="textInput" id="titulo"><b>Qual o seu nível de experiência? </b></label>
+        <br>
+        <label for="Iniciante" class="textInput"><b>Iniciante: </b></label>
+        <input type="radio" class="campoInput" id="Iniciante"  name="nivel">
+        
+        <label for="Intermediario" class="textInput"><b>Intermediário: </b></label>
+        <input type="radio" class="campoInput" id="Intermediario"  name="nivel">
+
+        <label for="Avancado" class="textInput"><b>Avançado: </b></label>
+        <input type="radio" class="campoInput" id="Avancado"  name="nivel">
+
+    </section>
+
+    <section>
+        <label for="Nome" class="textInput" id="titulo"><b>Indique os alimentos que o ciclista irá precisar: </b></label>
+        <br>
+        <div></div>
+        <label for="Agua" class="textInput"><b>Água: </b></label>
+        <input type="checkbox" class="campoInput" id="Agua">
+        <br>
+        <label for="LancheRapido" class="textInput"><b>Lanche rápido: </b></label>
+        <input type="checkbox" class="campoInput" id="LancheRapido">
+        <br>
+        <label for="LancheReforcado" class="textInput"><b>Lanche reforçado: </b></label>
+        <input type="checkbox" class="campoInput" id="LancheReforcado">
+        <br>
+        <label for="Coca" class="textInput"><b>Coca-cola sem açucar: </b></label>
+        <input type="checkbox" class="campoInput" id="Coca">
+        <br>
+        <label for="Barra" class="textInput"><b>Barra proteica: </b></label>
+        <input type="checkbox" class="campoInput" id="Barra">
+
+    </section>
+
+    <section>
+        <label for="Afirmacao" class="textInput"><b>Ao marcar a caixa você está afirmando que leu os termos de uso. </b></label>
+        <input type="checkbox" class="campoInput" id="Afirmacao">
+    </section>
+    <input type="submit" id="envio">
+</form>
+</body>
+</html>
